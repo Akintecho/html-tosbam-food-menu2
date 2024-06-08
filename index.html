@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sono:wght@400;700&display=swap" rel="stylesheet">
+  <title>Tosbam Food price-packages</title>
+  <style>
+     body {
+      font-family: 'Sono', sans-serif;
+    }
+
+    .Package-title {
+     text-align: center;
+      font-size: 58px;
+      font-weight: bold;
+     padding: 20px;
+      background-color: rgb(226, 55, 43);
+      color: white;
+      margin-bottom: 10px;
+    }
+
+    .Package-title img {
+    height: 220px;
+    margin-bottom: -50px;
+    }
+
+    .Package-title p {
+      font-size: 15px;
+    }
+
+    .price-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50vh;
+      gap: 2rem;
+    }
+
+    .price-plan {
+      flex: 1;
+      padding: 20px;
+      background-color: #f2f2f2;
+      border-radius: 5px;
+      max-width: 400px;
+      text-align: center;
+    }
+
+    .price-title {
+      font-size: 24px;
+      font-weight: bold;
+      padding-bottom: 10px;
+      color: rgb(255, 166, 0);
+    }
+
+    .price {
+      font-size: 48px;
+      font-weight: bold;
+      padding-bottom: 10px;
+    }
+
+    .plan-features {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .plan-features li {
+      margin-bottom: 20px;
+    }
+
+    .price-button {
+      border: none;
+      background-color: rgb(255, 0, 0);
+      color: white;
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+    @media (max-width: 1250px) {
+      .price-container  {
+        flex-direction: column;
+        height: 100%;
+      }
+    }
+
+    footer {
+      text-align: center;
+      background-color: rgb(82, 2, 2);
+      color: white;
+    }
+  </style>
+</head>
+<body>
+ <div class="Package-title">
+  <div>TOSBAM FOODIES PRICE PACKAGES</div>
+  <img src="./images/tosbam logo new.png" alt="Tosbam logo">
+  <p>Paradise in your mouth</p>
+ </div>
+  <div class="price-container">
+    <div class="price-plan">
+       <div class="price-title">Basic</div>
+       <div class="price">$11.99/month</div>
+       <ul class="plan-features">
+        <li>✅ 10GB Storage</li>
+        <li>✅ 1 User</li>
+        <li>🚫 Support</li>
+       </ul>
+       <button class="price-button">Sign Up</button>
+       </div>
+
+       <div class="price-plan">
+        <div class="price-title">Standard</div>
+        <div class="price">$19.99/month</div>
+        <ul class="plan-features">
+         <li>✅ 50GB Storage</li>
+         <li>✅ 5 Users</li>
+         <li>🚫 Phone & Email Support</li>
+        </ul>
+        <button class="price-button">Sign Up</button>
+        </div>
+
+        <div class="price-plan">
+          <div class="price-title">Premium</div>
+          <div class="price">$48.99/month</div>
+          <ul class="plan-features">
+           <li>✅ 100GB Storage</li>
+           <li>✅ 10 Users</li>
+           <li>🚫 24/7 Support</li>
+          </ul>
+          <button class="price-button">Sign Up</button>
+          </div>
+  </div>
+
+  <footer>Home of pastries and delicacies...</footer>
+</body>
+</html>
